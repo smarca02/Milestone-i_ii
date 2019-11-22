@@ -3,67 +3,68 @@
     font-size: calc(6vmin + 5px);
   }
 
-body {
-  margin: 0;
-  padding: 50px;
-  background-color: cream;
-  border-radius: 20px 60px;
-  color: purple;
-  border: 6px;
-  text-align: center;
-}
+  body {
+    margin: 0;
+    padding: 50px;
+    background-color: cream;
+    border-radius: 20px 60px;
+    color: purple;
+    border: 6px;
+    text-align: center;
+  }
 
-nav {
-  background-color: purple;
-  color: white;
-  font-family: arial, bold;
-  font-size: 1.3em;
-  height: 70px;
-  width: 100%;
-}
+  nav {
+    background-color: purple;
+    color: white;
+    font-family: arial, bold;
+    font-size: 1.3em;
+    height: 70px;
+    width: 100%;
+  }
 
-.nav {
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  line-height: 70px;
-}
+  .nav {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 70px;
+  }
 
-nav ul {
-  display: flex;
-}
+  nav ul {
+    display: flex;
+  }
 
-nav ul li {
-  margin: 0 10px;
-  display: inline-block;
-  margin: 0 auto;
-  padding: 0;
-}
+  nav ul li {
+    margin: 0 10px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+  }
 
-nav ul li a {
-  text-decoration: none;
-  color: white;
-}
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
 
-nav ul li a:hover {
-  color: lightyellow;
-  transition: 0.3 background-colour;
-}
+  nav ul li a:hover {
+    color: lightyellow;
+    transition: 0.3 background-colour;
+  }
 
-h1 h3 {
-  text-align: center;
-}
+  h1 h3 {
+    text-align: center;
+  }
 
-.overallservice .p {
-  text-align: center;
-}
+  .overallservice .p {
+    text-align: center;
+  }
 
-table {
-  table-layout: 1px solid;
-  border-color: purple;
-}
+  table {
+    table-layout: 1px solid;
+    border-color: purple;
+  }
 
-.reason {
-  text-align: left;
+  .reason {
+    text-align: left;
+  }
 }
