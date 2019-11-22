@@ -5,215 +5,132 @@
     <meta name="author" content="Sara Marcante" />
     <meta
       name="description"
-      content="Exercise: build a HTML document that includes a head, a title, a header and a form"
+      content="Exercise: Progress from previous exercise adding css styling and responsiveness"
     />
-    <meta name="title" content="Web Design Milestone 1.2" />
+    <meta name="title" content="Web Design Milestone 1-2" />
     <link href="stylesheet.css" rel="stylesheet.css" />
   </head>
 
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="./about.html">Go to the about page</a></li>
-        </ul>
-        <a id="logo" href="#" nonnovino></a>
-        <a href="#">nonno's choice</a>
-        <a href="#">wines</a>
-        <a href="#">learn more</a>
-        <a href="#">events</a>
-        <a href="#">ask nonno</a>
-      </nav>
-    </header>
+      <header>
+        <nav>
+          <ul class="nav">
+            <li img src="http://www.chalkinkdesign.com/wp-content/uploads/2019/11/nonnovino_logo-BW-copy.png"><a href="./index.html"></a></li>
+            <li class="wines"><a href="wines.html">Wines</a></li>
+            <li class="nchoice"><a href="nchoice.html">Nonno's choice</a></li>
+            <li class="learnmore"><a href="learnmore.html">Learn more</a></li>
+            <li class="events"><a href="events.html">Events</a></li>
+            <li class="asknonno"><a href="asknonno.html">Ask nonno</a></li>
+          </ul>
+        </nav>
+      </header>
 
     <main>
-      <p style="text-align: center;">
-        <img
-          src="http://www.chalkinkdesign.com/wp-content/uploads/2019/10/CSgrape.png"
-          alt="customer service icon"
-        />
-      </p>
-
-      <p class="introduction">
-        Lorem ipsum fake text Lorem ipsum fake text Lorem ipsum fake textLorem
-        ipsum fake text
-      </p>
-      <a id="photo"> </a>
-      <img
-        src="http://images.pexels.com/photos/23042/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-      />
-
-      <h1 align="center">
-        Rate our Service for your chance to WIN a bottle of Vino!
-      </h1>
-      <h3 align="center">
-        • Draws will be held monthly • Winners to be notified via email •
-      </h3>
-
-      <p>&nbsp</p>
-      <p>&nbsp;</p>
-
-      <form action="csform.html" method="SEND">
-        <section class="personinfo">
-          <div>
-            <label for="personinfo"> FULL NAME</label>
-            <input type="text" name="personinfo" id="personinfo" />
+      <div class="csgrape">
+        <p>
+          <img
+            src="http://www.chalkinkdesign.com/wp-content/uploads/2019/10/CSgrape.png"
+            alt="customer service icon"
+          />
+        </p>
+              <h1>Rate our Service for your chance to WIN a bottle of Vino!</h1>
+              <h3>• Draws will be held monthly • Winners to be notified via email •</h3>
           </div>
-          <div>
-            <label for="email">EMAIL</label>
-            <input type="text" name="email" id="email" />
-          </div>
-          <div>
+
+          <form action="csform.html" method="SEND">
+            <section class="personinfo">
+           <label for="personinfo"> FULL NAME</label>
+            <input type="text" name="personinfo" id="personinfo">
+            
+          
+          <label for="email">EMAIL</label>
+          <input type="text" name="email" id="email">
+          </section>
+            <div>
             <label for="order_nr"> ORDER NUMBER</label>
-            <input type="text" name="order_nr" id="order_nr" />
-          </div>
-        </section>
+            <input type="text" name="order_nr" 
+                   id="order_nr">
+            </div>
+            </p>
+               </section>
+            
+            <section class="overallservice">
+              <p>OVERALL CUSTOMER SERVICE EXPERIENCE</p>
 
-        <section class="overallservice">
-          <span>OVERALL CUSTOMER SERVICE EXPERIENCE</span>
-          <div>
-            <table
-              border:1
-              solid;
-              bordercolor="purple"
-              ;
-              class="table table-responsive"
-            >
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>Extremely Satisfied</th>
-                  <th>Satisfied</th>
-                  <th>Neutral</th>
-                  <th>Not Satisfied</th>
-                  <th>Extremely Dissatisfied</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th class="radiotext">
-                    <label for="friendly">Friendliness</label>
-                  </th>
-
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="friendly" name="optradio"
-                    /></label>
-                  </td>
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="friendly" name="optradio"
-                    /></label>
-                  </td>
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="friendly" name="optradio"
-                    /></label>
-                  </td>
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="friendly" name="optradio"
-                    /></label>
-                  </td>
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="friendly" name="optradio"
-                    /></label>
-                  </td>
-                </tr>
-                <tr>
-                  <th class="radiotext" ; text-aligh="center">
-                    <label for="knowledge">Knowledge</label>
-                  </th>
-
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="knowledge" name="optradio2"
-                    /></label>
-                  </td>
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="knowledge" name="optradio2"
-                    /></label>
-                  </td>
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="knowledge" name="optradio2"
-                    /></label>
-                  </td>
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="knowledge" name="optradio2"
-                    /></label>
-                  </td>
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="knowledge" name="optradio2"
-                    /></label>
-                  </td>
-                </tr>
-                <tr>
-                  <th class="radiotext" ; text-aligh="center">
-                    <label for="efficient">Service Efficiency</label>
-                  </th>
-
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="efficient" name="optradio3"
-                    /></label>
-                  </td>
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="efficient" name="optradio3"
-                    /></label>
-                  </td>
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="efficient" name="optradio3"
-                    /></label>
-                  </td>
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="efficient" name="optradio3"
-                    /></label>
-                  </td>
-                  <td class="radio">
-                    <label
-                      ><input type="radio" id="efficient" name="optradio3"
-                    /></label>
-                  </td>
-                </tr>
+              <div>
+               <table class="table table-responsive">
+                 <thead>
+                 <tr>
+                 <th></th>
+                 <th>Extremely Satisfied</th>
+                 <th>Satisfied</th>
+                 <th>Neutral</th>
+                 <th>Not Satisfied</th>
+                 <th>Extremely Dissatisfied</th>
+                 </tr>
+                </thead>
+                 <tbody>
+                   <tr>
+                   <th class="radiotext">
+                      <label for="friendly">Friendliness</label>
+                     <td class="radio"><label><input type="radio" id="friendly" name="optradio"></label></td>
+                       <td class="radio"><label><input type="radio" id="friendly" name="optradio"></label></td>
+                         <td class="radio"><label><input type="radio" id="friendly" name="optradio"></label></td>
+                         <td class="radio"><label><input type="radio" id="friendly" name="optradio"></label></td>
+                           <td class="radio"><label><input type="radio" id="friendly" name="optradio"></label></td>
+                   </tr>
+                   <tr>
+                     <th class="radiotext"; text-aligh="center">
+                      <label for="knowledge">Knowledge</label>
+                     <td class="radio"><label><input type="radio" id="knowledge" name="optradio2"></label></td>
+                       <td class="radio"><label><input type="radio" id="knowledge" name="optradio2"></label></td>
+                         <td class="radio"><label><input type="radio" id="knowledge" name="optradio2"></label></td>
+                           <td class="radio"><label><input type="radio" id="knowledge" name="optradio2"></label></td>
+                             <td class="radio"><label><input type="radio" id="knowledge" name="optradio2"></label></td>
+                   </tr>
+                   <tr>
+                     <th class="radiotext"; text-aligh="center">
+                      <label for="efficient">Service Efficiency</label>
+                     <td class="radio"><label><input type="radio" id="efficient" name="optradio3"></label></td>
+                       <td class="radio"><label><input type="radio" id="efficient" name="optradio3"></label></td>
+                         <td class="radio"><label><input type="radio" id="efficient" name="optradio3"></label></td>
+                           <td class="radio"><label><input type="radio" id="efficient" name="optradio3"></label></td>
+                             <td class="radio"><label><input type="radio" id="efficient" name="optradio3"></label></td>
+                   </tr>
+                   </div>
+                 </td>
               </tbody>
-            </table>
-          </div>
-          <br />
-        </section>
-        <section class="recom">
-          <label for="recom"
-            >Would you recommend us to a friend or colleague?</label
-          >
-          <input type="radio" name="recom" id="yes" value="yes" />
-          <label for="yes">Yes</label>
-          <input type="radio" name="recom" id="no" value="no" />
-          <label for="no">No</label>
-          <input type="radio" name="recom" id="maybe" value="maybe" />
-          <label for="maybe">Maybe</label>
-        </section>
+            </table> 
+            </section>
 
-        <section class="date">
-          <p>What day did you get in touch with our customer service?</p>
-          <input type="date" name="date" />
-        </section>
-
-        <section class="reason">
-          <p>Reason for contacting our Customer Service</p>
-          <textarea id="reason" name="reason" align:left rows="10" cols="80">
-          </textarea>
-        </section>
-        <section class="submission">
-          <input type="button" value="SEND" />
-        </section>
-      </form>
-    </main>
-  </body>
+            <div>
+            <section class="recom">
+              <label for="recom">Would you recommend us to a friend or colleague?</label>
+               <input type="radio" name="recom" id="yes" value="yes">
+               <label for="yes">Yes</label>
+               <input type="radio" name="recom" id="no" value="no">
+               <label for="no">No</label>
+               <input type="radio" name="recom" id="maybe" value="maybe">
+               <label for="maybe">Maybe</label>
+            </section>
+         
+         <section class="date">
+           <p>What day did you get in touch with our customer service?</p>
+           <input type="date" name="date">
+         </section>
+         
+         <section class="reason">
+           <p>Reason for contacting our Customer Service</p>
+           <textarea id="reason" name="reason"
+             rows="10" cols="80">Write something here</textarea>
+         </section>
+            <div>
+         <section class="submission">
+           <input type="button" value="SEND">
+         </section> 
+         </div>
+          </form>
+      </body>
+     </main>
 </html>
