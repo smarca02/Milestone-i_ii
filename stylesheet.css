@@ -1,70 +1,145 @@
 @media screen and (min-width: 767px) {
-  body {
-    font-size: calc(6vmin + 5px);
-  }
+}
 
-  body {
-    margin: 0;
-    padding: 50px;
-    background-color: cream;
-    border-radius: 20px 60px;
-    color: purple;
-    border: 6px;
-    text-align: center;
-  }
+body {
+  padding: 1em;
+  margin: 10px 0;
+}
 
-  nav {
-    background-color: purple;
-    color: white;
-    font-family: arial, bold;
-    font-size: 1.3em;
-    height: 70px;
-    width: 100%;
-  }
+nav {
+  background-color: purple;
+  color: white;
+  font-family: arial, bold;
+  font-size: 1.1em;
+  height: 70px;
+  width: 100%;
+  margin: 0 auto;
+}
 
-  .nav {
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    line-height: 70px;
-  }
+nav ul {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  line-height: 80px;
+}
 
-  nav ul {
-    display: flex;
-  }
+nav ul li {
+  margin: 0 10px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+}
 
-  nav ul li {
-    margin: 0 10px;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0;
-  }
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
 
-  nav ul li a {
-    text-decoration: none;
-    color: white;
-  }
+nav ul li a:hover {
+  color: tomato;
+  transition: 0.3 background-colour;
+}
 
-  nav ul li a:hover {
-    color: lightyellow;
-    transition: 0.3 background-colour;
-  }
+h1 h3 {
+  text-align: center;
+}
 
-  h1 h3 {
-    text-align: center;
-  }
+.overallservice .p {
+  text-align: center;
+}
 
-  .overallservice .p {
-    text-align: center;
-  }
+table {
+  table-layout: 1px solid;
+  border-color: purple;
+}
 
-  table {
-    table-layout: 1px solid;
-    border-color: purple;
-  }
+.reason {
+  text-align: left;
+}
+img {
+  max-width: 100%;
+}
 
-  .reason {
-    text-align: left;
-  }
+.csgrape {
+  position: relative;
+  padding: 30px;
+}
+
+h1 h3 {
+  text-align: center;
+}
+
+div {
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+form {
+  position: relative;
+  max-width: 800px;
+  min-height: 600px;
+  margin: 10px auto;
+  border: 6px solid whitesmoke;
+  background: whitesmoke;
+}
+
+section {
+  border: 5px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+label input {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input,
+textarea,
+button {
+  font-family: arial;
+  font-size: 80%;
+  width: 400px;
+}
+
+.criteria ul {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+}
+
+div,
+label {
+  font: 1em "Times New Roman";
+  list-style-type: none;
+}
+
+input[type="range"] {
+  position: relative;
+}
+
+input[type="range"]::before {
+  content: "0";
+  position: absolute;
+  top: -15px;
+}
+
+input[type="range"]::after {
+  content: "10";
+  position: absolute;
+  top: -15px;
+  right: -5px;
+}
+
+.overallservice .p {
+  text-align: center;
+}
+
+section .recom {
+  text-align: center;
+}
+
+.reason {
+  text-align: center;
 }
