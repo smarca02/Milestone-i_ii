@@ -138,6 +138,8 @@ input[type="range"]::after {
 
 section .recom {
   text-align: center;
+  padding: 50px;
+  margin-block: 30px;
 }
 
 .reason {
