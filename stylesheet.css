@@ -48,14 +48,6 @@ h1 h3 {
   text-align: center;
 }
 
-table {
-  table-layout: 1px solid;
-  border-color: purple;
-}
-
-.reason {
-  text-align: left;
-}
 img {
   max-width: 100%;
 }
@@ -119,7 +111,7 @@ input[type="range"] {
   position: relative;
 }
 
-input[type="range"]::before {
+/*input[type="range"]::before {
   content: "0";
   position: absolute;
   top: -15px;
@@ -130,6 +122,29 @@ input[type="range"]::after {
   position: absolute;
   top: -15px;
   right: -5px;
+}*/
+
+input[type="range"]::-webkit-any() {
+  font-family: arial;
+  font-size: 10px * 2;
+  line-height: 10px * 2;
+  color: black;
+}
+
+.ticks {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px * 2;
+}
+
+.ticks {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 1px;
+  height: 10px;
+  line-height: 10px * 10;
+  margin-bottom: 10px * 2;
 }
 
 .overallservice .p {
